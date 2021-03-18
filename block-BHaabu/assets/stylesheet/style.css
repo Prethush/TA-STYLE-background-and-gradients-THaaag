@@ -56,6 +56,8 @@ table {
 body {
     font-size: 18px;
     font-weight: 700;
+    background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../media/mountain-1.jpg) no-repeat;
+     height: 170vh; 
 }
 
 .flex {
@@ -69,15 +71,6 @@ body {
     max-width: 1240px;
     padding: 20px 20px;
     margin: 0 auto;
-}
-
-/* Hero */
-
-.hero {
-    background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../media/mountain-1.jpg) repeat;
-    background-size: 100vw 40vh;
-    position: relative;
-    height: 180vh;
 }
 
 /* Header */
@@ -125,7 +118,7 @@ body {
     height: 500px;
     background-size: cover;
     position: relative;
-    top: 180px;
+    top: 150px;
     margin: 0 auto;
     border-radius: 15px;
 }
