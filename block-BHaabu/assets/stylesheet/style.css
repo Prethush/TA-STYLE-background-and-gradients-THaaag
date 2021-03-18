@@ -1,0 +1,132 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Container */
+
+.container {
+    max-width: 1240px;
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+
+/* Hero */
+
+.hero {
+    background: linear-gradient( rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../media/mountain-1.jpg) repeat;
+    background-size: 100vw 40vh;
+    position: relative;
+    height: 180vh;
+}
+
+/* Header */
+
+.header {
+    text-align: center;
+}
+.heading {
+    position: relative;
+    top: 40px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.flex {
+    position: relative;
+    top: 100px;
+}
+.box {
+    flex: 0 1 31.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.box1 {
+    background: crimson;
+}
+
+.box2 {
+    background: linear-gradient(90deg, #272A22,red, #E83E43 );
+}
+
+.box3 {
+    background: radial-gradient(#272A22,red, #E83E43)
+}
+
+/* Image container */
+
+.img-container {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../media/walking-over-busy-street.jpg) no-repeat;
+    width: 1100px;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    top: 180px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
