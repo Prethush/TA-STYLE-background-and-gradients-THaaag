@@ -229,11 +229,3 @@ h3 {
     text-transform: capitalize;
 }
 
-.green , .red {
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
